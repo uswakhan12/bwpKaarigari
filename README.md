@@ -2,6 +2,8 @@
 
 Coming soon site for **Bahawalpur Karigari by Eisha Khan** — a heritage craftsmanship brand. Includes a short guide to mukaish (mukesh) work and a link to order via Instagram until the full shop launches.
 
+**Live site:** [https://bwp-kaarigari.vercel.app/](https://bwp-kaarigari.vercel.app/)
+
 ## Preview locally
 
 ```bash
