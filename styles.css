@@ -445,19 +445,20 @@ section {
 .site-credit {
   margin-top: 1.35rem !important;
   font-family: var(--font-body) !important;
-  font-size: 0.7rem !important;
-  font-weight: 400 !important;
+  font-size: 0.82rem !important;
+  font-weight: 500 !important;
   letter-spacing: 0.02em !important;
   text-transform: none !important;
-  color: var(--ink-soft) !important;
+  color: var(--ink) !important;
 }
 
 .site-credit a {
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
+  gap: 0.3rem;
   margin-left: 0.2rem;
-  color: var(--rose-deep);
+  font-weight: 600;
+  color: var(--rose);
   text-decoration: none;
 }
 
@@ -467,8 +468,8 @@ section {
 }
 
 .linkedin-icon {
-  width: 0.7rem;
-  height: 0.7rem;
+  width: 0.8rem;
+  height: 0.8rem;
 }
 
 /* —— Motion —— */
