@@ -442,6 +442,35 @@ section {
   color: var(--ink-soft) !important;
 }
 
+.site-credit {
+  margin-top: 1.35rem !important;
+  font-family: var(--font-body) !important;
+  font-size: 0.7rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.02em !important;
+  text-transform: none !important;
+  color: var(--ink-soft) !important;
+}
+
+.site-credit a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-left: 0.2rem;
+  color: var(--rose-deep);
+  text-decoration: none;
+}
+
+.site-credit a:hover,
+.site-credit a:focus-visible {
+  color: var(--rose-deep);
+}
+
+.linkedin-icon {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
 /* —— Motion —— */
 @keyframes rise-in {
   to {
