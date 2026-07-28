@@ -320,58 +320,20 @@ section {
   color: var(--ink-soft);
 }
 
-.body-copy.intro {
-  margin-bottom: 2rem;
-}
-
 .body-copy em {
   font-style: italic;
   color: var(--ink);
 }
 
 .craft .section-shell,
-.define .section-shell,
-.compare .section-shell,
+.vision .section-shell,
 .closing .section-shell {
   border-top: 1px solid var(--line);
   padding-top: clamp(2.5rem, 5vw, 3.5rem);
 }
 
-.compare-grid {
-  display: grid;
-  gap: 0;
-  max-width: 560px;
-}
-
-.compare-row {
-  display: grid;
-  grid-template-columns: minmax(7rem, 0.35fr) 1fr;
-  gap: 1rem;
-  padding: 1.1rem 0;
-  border-bottom: 1px solid var(--line);
-  font-size: 1.15rem;
-}
-
-.compare-row.head {
-  padding-top: 0;
-  font-family: var(--font-display);
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--rose);
-}
-
-.compare-row:not(.head) span:first-child {
-  font-family: var(--font-display);
-  font-size: 0.95rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  color: var(--ink);
-}
-
-.compare-row:not(.head) span:last-child {
-  color: var(--ink-soft);
+.body-copy.vision-close {
+  margin-top: 1.25rem;
 }
 
 .instagram-cta {
@@ -542,11 +504,6 @@ section {
 @media (max-width: 560px) {
   .site-header {
     padding-top: 1rem;
-  }
-
-  .compare-row {
-    grid-template-columns: 1fr;
-    gap: 0.35rem;
   }
 
   .hero-logo {
